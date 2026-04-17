@@ -7,6 +7,10 @@ import { Ionicons } from '@expo/vector-icons';
 
 import HomeScreen from './src/screens/HomeScreen';
 import FilmesScreen from './src/screens/FilmesScreen';
+import SeriesScreen from './src/screens/SeriesScreen'; 
+import DetalhesScreen from './src/screens/DetalhesScreen'; 
+import SobreScreen from './src/screens/SobreScreen'; 
+import ContatoScreen from './src/screens/ContatoScreen'; // <-- NOVO: Importando a tela de Contato!
 
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
@@ -19,10 +23,10 @@ function TabNavigator() {
         headerShown: false,
         tabBarActiveTintColor: '#8E73B9',
         tabBarInactiveTintColor: '#8A8A8A',
-        tabBarActiveBackgroundColor: '#DCD0EF', // O fundo mais escurinho quando clica
+        tabBarActiveBackgroundColor: '#DCD0EF', 
         tabBarItemStyle: {
-          borderRadius: 15, // Deixa o botão arredondado igual na sua imagem
-          marginHorizontal: 10, // Espaço entre os botões
+          borderRadius: 15, 
+          marginHorizontal: 10, 
           marginVertical: 5,
           paddingVertical: 5,
         },
@@ -44,7 +48,7 @@ function TabNavigator() {
         component={HomeScreen} 
         options={{ 
           tabBarButton: () => null,
-          tabBarItemStyle: { display: 'none' } // ISSO AQUI RESOLVE O BURACO TORTO
+          tabBarItemStyle: { display: 'none' } 
         }}
       />
       <Tab.Screen 
@@ -56,7 +60,7 @@ function TabNavigator() {
       />
       <Tab.Screen 
         name="Séries" 
-        component={HomeScreen} 
+        component={SeriesScreen} 
         options={{
           tabBarIcon: ({ color, size }) => <Ionicons name="tv" size={24} color={color} />
         }}
@@ -77,12 +81,12 @@ export default function App() {
             height: 90, 
           },
           headerTitle: "Guia de Filmes e Séries",
-          headerTitleAlign: 'left', // Alinha o texto do cabeçalho à esquerda
+          headerTitleAlign: 'left', 
           headerTitleStyle: {
             color: '#FFFFFF',
             fontSize: 20,
             fontWeight: 'bold',
-            marginLeft: -15, // Cola o texto mais perto do menu sanduíche
+            marginLeft: -15, 
           },
           headerTintColor: '#FFFFFF', 
           drawerActiveTintColor: '#6A1B9A',
@@ -99,9 +103,25 @@ export default function App() {
         />
         <Drawer.Screen 
           name="Sobre" 
-          component={HomeScreen} 
+          component={SobreScreen} 
           options={{
             drawerIcon: ({ color }) => <Ionicons name="information-circle-outline" size={22} color={color} />
+          }}
+        />
+        {/* <-- NOVO: Tela de Contato de volta ao menu lateral! --> */}
+        <Drawer.Screen 
+          name="Contato" 
+          component={ContatoScreen} 
+          options={{
+            drawerIcon: ({ color }) => <Ionicons name="mail-outline" size={22} color={color} />
+          }}
+        />
+        <Drawer.Screen 
+          name="Detalhes" 
+          component={DetalhesScreen} 
+          options={{
+            headerShown: false, 
+            drawerItemStyle: { display: 'none' } 
           }}
         />
       </Drawer.Navigator>

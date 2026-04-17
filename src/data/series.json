@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "titulo": "Breaking Bad",
+    "subtitulo": "A transformação de Walter White",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTE3LTgwMDItZGI4YTAyNmI2MWRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "2",
+    "titulo": "The Office",
+    "subtitulo": "O dia a dia na Dunder Mifflin",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNmU4YjI5ZDEtNWQ3MC00NWI3LWFhM2MtMjk0ZTIxNTcwYTk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "3",
+    "titulo": "Game of Thrones",
+    "subtitulo": "A guerra pelo Trono de Ferro",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "4",
+    "titulo": "Dark",
+    "subtitulo": "Mistérios do tempo em Winden",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTAyYTU0ZjEtZTUzYS00ZWNhLWI1N2MtOWUyNjIzNzVkMWM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "5",
+    "titulo": "The Boys",
+    "subtitulo": "Quando heróis não são tão heroicos",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BZDU1MTdkMmItYzNlMy00MGM5LWIxNmUtOGRlOTNjMDZlNjdjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  }
+]
