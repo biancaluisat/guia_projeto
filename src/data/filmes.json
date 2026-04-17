@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "titulo": "In the Mood for Love",
+    "subtitulo": "Com vontade de amar",
+    "imagem": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/243/2025/11/21102457/8BgGbbWiLNhPtkMkN0gGTnbtvBv-scaled.jpg"
+  },
+  {
+    "id": "2",
+    "titulo": "Vingadores: Ultimato",
+    "subtitulo": "A batalha final contra Thanos",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
+  },
+  {
+    "id": "3",
+    "titulo": "O Rei Leão",
+    "subtitulo": "A jornada de Simba",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg"
+  },
+  {
+    "id": "4",
+    "titulo": "Jurassic Park",
+    "subtitulo": "Parque dos dinossauros",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
+  },
+  {
+    "id": "5",
+    "titulo": "A Garota do Século 20",
+    "subtitulo": "O último ano do século 20...",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BODk0YTZjMTUtYTg5ZS00YjkwLTlhNjUtY2I4NWQ1ZGZkNjBlXkEyXkFqcGc@._V1_.jpg"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome": "Stranger Things",
+    "descricao": "Um grupo de amigos enfrenta acontecimentos misteriosos em uma pequena cidade.",
+    "imagem": "https://4529938.fs1.hubspotusercontent-na1.net/hubfs/4529938/Banner%20da%20quinta%20temporada%20de%20Stranger%20Things.png",
+    "categoria": "Série de Ficção"
+  },
+  {
+    "id": 2,
+    "nome": "Breaking Bad",
+    "descricao": "Um professor de química se torna um produtor de metanfetamina para sustentar sua família.",
+    "imagem": "https://seriemaniacos.tv/wp-content/uploads/2011/06/Breaking-Bad.jpg",
+    "categoria": "Drama / Crime"
+  },
+  {
+    "id": 3,
+    "nome": " ",
+    "descricao": "Um astronauta solitário deve salvar a Terra de um desastre astronômico.",
+    "imagem": "https://www.universalpictures.nl/tl_files/content/movies/project-hail-mary/project-hail-mary_header_desktop.jpg",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "id": 4,
+    "nome": "A Empregada",
+    "descricao": "Um suspense psicológico sobre segredos de família e manipulação.",
+    "imagem": "https://portalg.com.br/wp-content/uploads/2025/12/Cinesystem-da-Kindle-em-promocao-especial-de-A-Empregada-saiba-como-participar_compressed.jpg",
+    "categoria": "Suspense"
+  },
+  {
+    "id": 5,
+    "nome": "My Name",
+    "descricao": "Após o assassinato de seu pai, uma mulher busca vingança e entra para o crime organizado.",
+    "imagem": "https://labdicasjornalismo.com/images/fotosextras/FOTO%201%20NETFLIX.jpg",
+    "categoria": "Ação / Policial"
+  }
+]
