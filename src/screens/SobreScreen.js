@@ -6,8 +6,7 @@ export default function SobreScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
-        
-        {/* Ícone ou Logo do App */}
+
         <View style={styles.logoContainer}>
           <View style={styles.iconCircle}>
             <Ionicons name="film" size={60} color="#FFFFFF" />
@@ -16,7 +15,6 @@ export default function SobreScreen({ navigation }) {
           <Text style={styles.version}>Versão 1.0.0</Text>
         </View>
 
-        {/* Descrição */}
         <View style={styles.card}>
           <Text style={styles.sectionTitle}>Sobre o App</Text>
           <Text style={styles.description}>
@@ -24,7 +22,6 @@ export default function SobreScreen({ navigation }) {
           </Text>
         </View>
 
-        {/* Informações do Desenvolvedor */}
         <View style={styles.card}>
           <Text style={styles.sectionTitle}>Desenvolvimento</Text>
           <View style={styles.devInfo}>
@@ -37,7 +34,6 @@ export default function SobreScreen({ navigation }) {
           </View>
         </View>
 
-        {/* Botão de Voltar para a Home */}
         <TouchableOpacity 
           style={styles.botaoVoltar}
           activeOpacity={0.8}
@@ -55,7 +51,7 @@ export default function SobreScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5EEFA', // Nosso fundo padrão
+    backgroundColor: '#F5EEFA', 
   },
   scrollContent: {
     padding: 20,
@@ -69,13 +65,13 @@ const styles = StyleSheet.create({
   iconCircle: {
     width: 120,
     height: 120,
-    backgroundColor: '#D6C6F4', // Roxo do cabeçalho
+    backgroundColor: '#D6C6F4',
     borderRadius: 60,
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 15,
-    elevation: 3, // Sombra leve no Android
-    shadowColor: '#000', // Sombra no iOS
+    elevation: 3,
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
@@ -123,7 +119,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   botaoVoltar: {
-    backgroundColor: '#6A1B9A', // Roxo escurão
+    backgroundColor: '#6A1B9A',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
