@@ -17,7 +17,6 @@ export default function FilmesScreen({ navigation }) {
         <Text style={styles.titulo}>{item.titulo}</Text>
         <Text style={styles.subtitulo}>{item.subtitulo}</Text>
         
-        {/* Barrinhas decorativas (Placeholders) da sua imagem */}
         <View style={styles.placeholderBarraLarga} />
         <View style={styles.placeholderBarraLarga} />
         <View style={styles.placeholderBarraCurta} />
@@ -27,7 +26,6 @@ export default function FilmesScreen({ navigation }) {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Cabeçalho Personalizado */}
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.goBack()} style={styles.botaoVoltar}>
           <Ionicons name="arrow-back" size={24} color="#FFF" />
@@ -35,7 +33,6 @@ export default function FilmesScreen({ navigation }) {
         <Text style={styles.headerTitle}>Filmes</Text>
       </View>
 
-      {/* Lista de Filmes */}
       <FlatList
         data={filmes}
         keyExtractor={item => item.id}
@@ -77,8 +74,8 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     marginBottom: 15,
     padding: 10,
-    elevation: 3, // Sombra para Android
-    shadowColor: '#000', // Sombra para iOS
+    elevation: 3, 
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
