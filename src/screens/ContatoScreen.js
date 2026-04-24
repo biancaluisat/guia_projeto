@@ -7,7 +7,6 @@ export default function ContatoScreen({ navigation }) {
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
         
-        {/* Ícone e Título */}
         <View style={styles.headerContainer}>
           <Ionicons name="chatbubbles" size={60} color="#D6C6F4" />
           <Text style={styles.title}>Fale Conosco</Text>
@@ -16,7 +15,6 @@ export default function ContatoScreen({ navigation }) {
           </Text>
         </View>
 
-        {/* Formulário */}
         <View style={styles.formContainer}>
           <Text style={styles.label}>Nome</Text>
           <TextInput 
@@ -49,7 +47,6 @@ export default function ContatoScreen({ navigation }) {
           </TouchableOpacity>
         </View>
 
-        {/* Botão de Voltar */}
         <TouchableOpacity 
           style={styles.botaoVoltar}
           activeOpacity={0.8}
@@ -96,8 +93,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     padding: 20,
     borderRadius: 16,
-    elevation: 2, // Sombra Android
-    shadowColor: '#000', // Sombra iOS
+    elevation: 2,
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
@@ -110,7 +107,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   input: {
-    backgroundColor: '#F9F5FC', // Fundo bem clarinho pro input
+    backgroundColor: '#F9F5FC',
     borderWidth: 1,
     borderColor: '#E4D9F6',
     borderRadius: 10,
