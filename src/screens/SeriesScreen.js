@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity, SafeAreaView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import series from '../data/series.json'; // Importando nosso novo JSON
+import series from '../data/series.json';
 
 export default function SeriesScreen({ navigation }) {
   
@@ -16,8 +16,7 @@ export default function SeriesScreen({ navigation }) {
       <View style={styles.infoContainer}>
         <Text style={styles.titulo}>{item.titulo}</Text>
         <Text style={styles.subtitulo} numberOfLines={1}>{item.subtitulo}</Text>
-        
-        {/* Barrinhas decorativas alinhadas */}
+
         <View style={styles.placeholderBarraLarga} />
         <View style={styles.placeholderBarraLarga} />
         <View style={styles.placeholderBarraCurta} />
@@ -28,7 +27,6 @@ export default function SeriesScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        {/* Usando navigation.navigate para forçar a volta à TelaInicial caso precise */}
         <TouchableOpacity onPress={() => navigation.navigate('TelaInicial')} style={styles.botaoVoltar}>
           <Ionicons name="arrow-back" size={28} color="#FFF" />
         </TouchableOpacity>
@@ -46,7 +44,6 @@ export default function SeriesScreen({ navigation }) {
   );
 }
 
-// Mantendo os estilos idênticos e alinhados
 const styles = StyleSheet.create({
   container: {
     flex: 1,
