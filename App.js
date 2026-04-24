@@ -10,7 +10,7 @@ import FilmesScreen from './src/screens/FilmesScreen';
 import SeriesScreen from './src/screens/SeriesScreen'; 
 import DetalhesScreen from './src/screens/DetalhesScreen'; 
 import SobreScreen from './src/screens/SobreScreen'; 
-import ContatoScreen from './src/screens/ContatoScreen'; // <-- NOVO: Importando a tela de Contato!
+import ContatoScreen from './src/screens/ContatoScreen'; 
 
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
@@ -108,7 +108,6 @@ export default function App() {
             drawerIcon: ({ color }) => <Ionicons name="information-circle-outline" size={22} color={color} />
           }}
         />
-        {/* <-- NOVO: Tela de Contato de volta ao menu lateral! --> */}
         <Drawer.Screen 
           name="Contato" 
           component={ContatoScreen} 
